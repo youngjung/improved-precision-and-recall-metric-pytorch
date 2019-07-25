@@ -26,6 +26,6 @@ print('recall =', metric.recall)
 realism_score = ipr.realism(image_in_tensor)
 ```
 
-## [Link to official repo]
+## Link to official repo
 
 https://github.com/kynkaat/improved-precision-and-recall-metric
