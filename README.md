@@ -1,6 +1,8 @@
 # improved-precision-and-recall-metric-pytorch
 Improved Precision and Recall Metric for Assessing Generative Models - Unofficial Pytorch Implementation
 
+[Paper (arXiv)](https://arxiv.org/abs/1904.06991)
+
 ## Usage
 - given two directories containing real and fake images
 ``` bash
