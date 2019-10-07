@@ -229,8 +229,9 @@ def distances2radii(distances, k=3):
 
 
 def get_kth_value(np_array, k):
-    idx = np.argpartition(np_array, k)
-    k_smallests = np_array[idx[:k]]
+    kprime = k+1  # kth NN should be (k+1)th because closest one is itself
+    idx = np.argpartition(np_array, kprime)
+    k_smallests = np_array[idx[:kprime]]
     kth_value = k_smallests.max()
     return kth_value
 
