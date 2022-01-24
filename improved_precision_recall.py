@@ -28,7 +28,7 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 
 Manifold = namedtuple('Manifold', ['features', 'radii'])
-PrecisionAndRecall = namedtuple('PrecisinoAndRecall', ['precision', 'recall'])
+PrecisionAndRecall = namedtuple('PrecisionAndRecall', ['precision', 'recall'])
 
 
 class IPR():
